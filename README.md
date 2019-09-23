@@ -1,6 +1,12 @@
 ## About
 
-**check_snmp_memusage_percent** - Icinga Plugin Check Command to calculate the percentage of memory used (from SNMP data)
+**check_snmp_memusage_percent** - Icinga Plugin Script (Check Command). 
+
+It calculate the percentage of memory usage from received SNMP data
+
+Tested on **Debian GNU/Linux 8.7 (Jessie)** with **Icinga r2.6.3-1**
+
+Put here: /usr/lib/nagios/plugins/snmp_memusage_percent.sh
 
 PreReq: **snpmget** tool
 
